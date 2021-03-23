@@ -1,0 +1,18 @@
+header {
+    background-color: cornflowerblue;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin: 0 8%;
+
+
+    nav {
+        display: flex;
+        li {
+            list-style: none;
+            padding: 0.5em;
+        }
+    }
+}
