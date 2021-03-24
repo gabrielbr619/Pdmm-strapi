@@ -1,6 +1,6 @@
 console.log("alou");
-
-let url = "https://heroku-pdmm.herokuapp.com/";
+strapi-pdmm.herokuapp.com
+let url = "https://strapi-pdmm.herokuapp.com/";
 const pathRestaurant = "restaurants";
 url = url + pathRestaurant;
 
@@ -65,7 +65,7 @@ function createLi(data){
 }
 
 function createImg(data) {
-  let url = "https://heroku-pdmm.herokuapp.com";
+  let url = "https://strapi-pdmm.herokuapp.com";
   let img = document.createElement("img");
   img.src = url + data;
   img.style.width = "500px"
