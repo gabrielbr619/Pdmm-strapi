@@ -22,8 +22,8 @@ async function getapi(url, callback) {
     div.appendChild(ul)
     document.querySelector(".conteiner-geral").appendChild(div)
 
-    for (let j = 0; j < data[i].midia.length; j++) {
-        const img = createImg(data[i].midia[j].url)
+    for (let j = 0; j < data[i].images.length; j++) {
+        const img = createImg(data[i].images[j].url)
       div.appendChild(img)
       document.querySelector(".conteiner-geral").appendChild(div);
         
