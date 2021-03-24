@@ -1,5 +1,4 @@
 console.log("alou");
-strapi-pdmm.herokuapp.com
 let url = "https://strapi-pdmm.herokuapp.com/";
 const pathRestaurant = "restaurants";
 url = url + pathRestaurant;
