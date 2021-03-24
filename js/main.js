@@ -1,6 +1,6 @@
 console.log("alou");
 
-let url = "https://heroku-pdmm.herokuapp.com/";
+let url = "https://strapi-pdmm.herokuapp.com/";
 const pathRestaurant = "restaurants";
 url = url + pathRestaurant;
 
@@ -14,7 +14,6 @@ async function getapi(url, callback) {
     const h1 = createH1(data[i].name)
     const p = createP(data[i].description);
     ;
-    console.log(data[i].midia[0].url);
     
     let ul = document.createElement("ul");
     let div = document.createElement("div")
@@ -65,7 +64,7 @@ function createLi(data){
 }
 
 function createImg(data) {
-  let url = "https://heroku-pdmm.herokuapp.com";
+  let url = "https://strapi-pdmm.herokuapp.com";
   let img = document.createElement("img");
   img.src = url + data;
   img.style.width = "500px"
